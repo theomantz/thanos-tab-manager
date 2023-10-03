@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Thanos Tab Manager",
+    "description": "Thanos Tab Manager",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./dist/index.js"]
+        }
+    ]
+}

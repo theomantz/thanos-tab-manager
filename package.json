@@ -1,0 +1,32 @@
+{
+  "name": "thanos-tab-manager",
+  "version": "1.0.0",
+  "description": "a tab manager which closes half your tabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/theomantz/thanos-tab-manager.git"
+  },
+  "keywords": [
+    "\"extension\"",
+    "\"browser",
+    "extension\"",
+    "\"chrome\"",
+    "\"firefox\""
+  ],
+  "author": "theomantz",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/theomantz/thanos-tab-manager/issues"
+  },
+  "homepage": "https://github.com/theomantz/thanos-tab-manager#readme",
+  "dependencies": {
+    "ua-parser-js": "^1.0.36"
+  },
+  "devDependencies": {
+    "@types/ua-parser-js": "^0.7.37"
+  }
+}
